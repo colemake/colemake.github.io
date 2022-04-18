@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>calculator</title>
+    <url>/2022/04/18/calculator/</url>
+    <content><![CDATA[<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pwn <span class="keyword">import</span> *</span><br><span class="line">context(log_level=<span class="string">&quot;DEBUG&quot;</span>)</span><br><span class="line">p=remote(<span class="string">&quot;10.214.160.13&quot;</span>,<span class="number">11002</span>)</span><br><span class="line">p.recvuntil(<span class="string">&#x27;seconds&#x27;</span>)</span><br><span class="line">p.recvline()</span><br><span class="line">p.recvline()</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,<span class="number">10</span>):</span><br><span class="line">    a=p.recvuntil(<span class="string">&#x27;=&#x27;</span>)</span><br><span class="line">    a=<span class="built_in">str</span>(a)</span><br><span class="line">    <span class="built_in">print</span>(a)</span><br><span class="line">    s=<span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> a:</span><br><span class="line">        <span class="keyword">if</span> j <span class="keyword">in</span> <span class="string">&quot;0123456789+-&quot;</span>:</span><br><span class="line">            s=s+j</span><br><span class="line">    <span class="built_in">print</span>(s)</span><br><span class="line">    p.sendline(<span class="built_in">str</span>(<span class="built_in">eval</span>(s)))</span><br><span class="line">p.recvline()</span><br></pre></td></tr></table></figure>
+
+<p>使用pwntools工具写脚本即可</p>
+]]></content>
+      <categories>
+        <category>Write Up</category>
+      </categories>
+      <tags>
+        <tag>-Web -school bus -python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Easy Web</title>
     <url>/2022/03/25/Easy-Web/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，您输入的密码错误，请检查后重新输入。" data-whm="抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。">
