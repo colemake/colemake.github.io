@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>git_leak</title>
+    <url>/2022/04/21/git-leak/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Write Up</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>reverse1</title>
+    <url>/2022/04/21/reverse1/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，您输入的密码错误，请检查后重新输入。" data-whm="抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="fc393ab2bd44d5cd8ab06fa66a7f8c9a976a74e6cf65429c60c574145ae9502e">6ae5bae01cf6ca5316930b734794fa75c7889ab2e31e38ff71653e94c4ca13e507b79716113b7fa8852b112002e701c29ba39cff7328e34e7d8748f9938977f5c210a23556ed0289a5924224912a632794652b4eeb5ae25da1595c5c46ac8727</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">当前文章暂不对外可见，请输入密码后查看！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Write Up</category>
+      </categories>
+      <tags>
+        <tag>school bus</tag>
+        <tag>reverse</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>format_string_bug_easy</title>
     <url>/2022/04/21/format-string-bug-easy/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，您输入的密码错误，请检查后重新输入。" data-whm="抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。">
