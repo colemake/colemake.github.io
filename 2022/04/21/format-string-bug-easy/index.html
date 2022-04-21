@@ -20,17 +20,22 @@
     var CONFIG = {"hostname":"colemake.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Categories">
-<meta property="og:url" content="http://colemake.github.io/categories/index.html">
+  <meta name="description" content="这是一篇加密文章，需要密码才能继续阅读。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="format_string_bug_easy">
+<meta property="og:url" content="http://colemake.github.io/2022/04/21/format-string-bug-easy/index.html">
 <meta property="og:site_name" content="colemak&#39;s blog">
+<meta property="og:description" content="这是一篇加密文章，需要密码才能继续阅读。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-03-25T01:02:58.000Z">
-<meta property="article:modified_time" content="2022-03-25T02:20:51.075Z">
+<meta property="article:published_time" content="2022-04-21T02:58:56.000Z">
+<meta property="article:modified_time" content="2022-04-21T03:06:03.635Z">
 <meta property="article:author" content="colemak">
+<meta property="article:tag" content="school bus">
+<meta property="article:tag" content="pwn">
+<meta property="article:tag" content="fsb">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://colemake.github.io/categories/">
+<link rel="canonical" href="http://colemake.github.io/2022/04/21/format-string-bug-easy/">
 
 
 <script id="page-configurations">
@@ -38,13 +43,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Categories | colemak's blog
-</title>
+  <title>format_string_bug_easy | colemak's blog</title>
   
 
 
@@ -179,51 +183,104 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://colemake.github.io/2022/04/21/format-string-bug-easy/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/1.jpeg">
+      <meta itemprop="name" content="colemak">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="colemak's blog">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          format_string_bug_easy
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">Categories
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2022-04-21 10:58:56 / 修改时间：11:06:03" itemprop="dateCreated datePublished" datetime="2022-04-21T10:58:56+08:00">2022-04-21</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Write-Up/" itemprop="url" rel="index"><span itemprop="name">Write Up</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，您输入的密码错误，请检查后重新输入。" data-whm="抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="c46b884ef2b61ea81e3474314d509c33100adf3773d9a5e3375c06e80312c841">6ae5bae01cf6ca5316930b734794fa75c7889ab2e31e38ff71653e94c4ca13e57c6ea73a27c564577f7021e17ac9dd21bc17e8937b4f46539774efd9f3c719b9cb36f4e2f4ae03f70c1301aba9ee01990e4cc2075791ee0966b33800e7a43948e841713c25b194ca3fcc088c4d125ed8d3c39df3309ce06dc5e0329cee7f689ff4b5cbdfa1dff9c0f9a835514d28081bb9bab9aa70a803f8d9015405cacb9b0c7965d402151d23fedc03f09ce996ec8dab17c531667178880920453c334858bc04713fb5b74cd3b20c00bfcb699d90da29ae0a2aee3caab383eb59d5853c536226d18bc9de81289e2e81df4469ca7579740a134e2b4e65dca6274277b4c1f41b5e9f2b428c907df0443211008c576c00a099df96cedc811267e818faab123faf18c957e61730bca68e3a870623081f9645eea93b082748d2094dc324c2753c25b53730dee68de3485d9a313b7fbb42064632b15bbcc17e4f699b239322e45be53ec81ebc881220055175378dfb648959197e1c4db5d10dc740518292132e5758a12fd04855eb0a62b5be03547f71fd6f630e297f257edada9f0380dd279123ce</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">当前文章暂不对外可见，请输入密码后查看！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/school-bus/" rel="tag"># school bus</a>
+              <a href="/tags/pwn/" rel="tag"># pwn</a>
+              <a href="/tags/fsb/" rel="tag"># fsb</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/04/18/apk02/" rel="prev" title="apk02">
+      <i class="fa fa-chevron-left"></i> apk02
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <div class="category-all-page">
-            <div class="category-all-title">
-              目前共计 1 个分类
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Write-Up/">Write Up</a><span class="category-list-count">5</span></li></ul>
-            </div>
-          </div>
-        
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
 
 
           </div>

@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>format_string_bug_easy</title>
+    <url>/2022/04/21/format-string-bug-easy/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，您输入的密码错误，请检查后重新输入。" data-whm="抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="c46b884ef2b61ea81e3474314d509c33100adf3773d9a5e3375c06e80312c841">6ae5bae01cf6ca5316930b734794fa75c7889ab2e31e38ff71653e94c4ca13e57c6ea73a27c564577f7021e17ac9dd21bc17e8937b4f46539774efd9f3c719b9cb36f4e2f4ae03f70c1301aba9ee01990e4cc2075791ee0966b33800e7a43948e841713c25b194ca3fcc088c4d125ed8d3c39df3309ce06dc5e0329cee7f689ff4b5cbdfa1dff9c0f9a835514d28081bb9bab9aa70a803f8d9015405cacb9b0c7965d402151d23fedc03f09ce996ec8dab17c531667178880920453c334858bc04713fb5b74cd3b20c00bfcb699d90da29ae0a2aee3caab383eb59d5853c536226d18bc9de81289e2e81df4469ca7579740a134e2b4e65dca6274277b4c1f41b5e9f2b428c907df0443211008c576c00a099df96cedc811267e818faab123faf18c957e61730bca68e3a870623081f9645eea93b082748d2094dc324c2753c25b53730dee68de3485d9a313b7fbb42064632b15bbcc17e4f699b239322e45be53ec81ebc881220055175378dfb648959197e1c4db5d10dc740518292132e5758a12fd04855eb0a62b5be03547f71fd6f630e297f257edada9f0380dd279123ce</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">当前文章暂不对外可见，请输入密码后查看！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Write Up</category>
+      </categories>
+      <tags>
+        <tag>school bus</tag>
+        <tag>pwn</tag>
+        <tag>fsb</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>apk02</title>
     <url>/2022/04/18/apk02/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，您输入的密码错误，请检查后重新输入。" data-whm="抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。">
