@@ -264,4 +264,28 @@
         <tag>ppc</tag>
       </tags>
   </entry>
+  <entry>
+    <title>simple_rsa</title>
+    <url>/2022/04/26/simple-rsa/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，您输入的密码错误，请检查后重新输入。" data-whm="抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="f85f642ac3311ba2eb7f8a9b7010f0c3bc6260ddb947d7cf27743d94ff3c1fab">6ae5bae01cf6ca5316930b734794fa75c7889ab2e31e38ff71653e94c4ca13e5b39821755fff21c0bd5c4308d75e14b7abf3f7ff019ae000aa64b6dc80a27394874e56dd4457b03748b5f7e4f552a4e4946f40af1fff20da44ffa2976cc6ef11c0ab40be597a9836ca23a524788b10a0058fd93de43611f7790525f5ea5b4e03eba5c68b95126a21c233449f01764423fe570f0bcae10b9e4c381ba35e0a85cd</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">当前文章暂不对外可见，请输入密码后查看！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Write Up</category>
+      </categories>
+      <tags>
+        <tag>school bus</tag>
+        <tag>crypto</tag>
+        <tag>rsa</tag>
+      </tags>
+  </entry>
 </search>
